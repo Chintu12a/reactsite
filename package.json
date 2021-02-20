@@ -1,6 +1,6 @@
 {
   "name": "react-website",
-  "homepage": "https://Chintu12a.github.io/react-website",
+  "homepage": "https://Chintu12a.github.io/react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,8 +16,9 @@
     "react-scripts": "4.0.2",
     "web-vitals": "^1.0.1"
   },
-  "scripts": {"predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
